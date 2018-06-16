@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/lara/catkin_ws/src/test/src/controller.cpp', needed by 'CMakeFiles/controller.dir/src/controller.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

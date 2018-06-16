@@ -1,0 +1,7 @@
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In function ‘[01m[Kint stop()[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:44:8:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     if()
+[01;32m[K        ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

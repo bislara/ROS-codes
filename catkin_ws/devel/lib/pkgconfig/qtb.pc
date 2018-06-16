@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/qtb/lib/pkgconfig/qtb.pc

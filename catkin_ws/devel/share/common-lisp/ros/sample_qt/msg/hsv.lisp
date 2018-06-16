@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/sample_qt/share/common-lisp/ros/sample_qt/msg/hsv.lisp

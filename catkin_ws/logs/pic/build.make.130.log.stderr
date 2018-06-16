@@ -1,0 +1,17 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:14:31:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+ void Callback(const std_msgs::Int32MultiArray::ConstPtr& msg)
+[01;32m[K                               ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:14:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void Callback(const std_msgs::Int32MultiArray::ConstPtr& msg)
+[01;32m[K                                                        ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:14:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:14:58:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void Callback(const std_msgs::Int32MultiArray::ConstPtr& msg)
+[01;32m[K                                                          ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:53:54:[m[K [01;31m[Kerror: [m[K‘[01m[KCallback[m[K’ was not declared in this scope
+         ros::Subscriber sub1=nh.subscribe("HSV",1000,Callback);
+[01;32m[K                                                      ^[m[K
+make[2]: *** [CMakeFiles/trackbar.dir/src/trackbar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trackbar.dir/all] Error 2
+make: *** [all] Error 2

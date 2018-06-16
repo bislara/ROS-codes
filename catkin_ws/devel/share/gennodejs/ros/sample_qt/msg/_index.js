@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/sample_qt/share/gennodejs/ros/sample_qt/msg/_index.js

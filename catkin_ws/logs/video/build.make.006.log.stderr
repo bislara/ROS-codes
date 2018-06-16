@@ -1,0 +1,21 @@
+CMakeFiles/listener.dir/src/listener.cpp.o: In function `imageCallback(boost::shared_ptr<sensor_msgs::Image_<std::allocator<void> > const> const&)':
+listener.cpp:(.text+0xb0): undefined reference to `cv::imshow(cv::String const&, cv::_InputArray const&)'
+listener.cpp:(.text+0xff): undefined reference to `cv::waitKey(int)'
+CMakeFiles/listener.dir/src/listener.cpp.o: In function `main':
+listener.cpp:(.text+0x411): undefined reference to `cv::namedWindow(cv::String const&, int)'
+listener.cpp:(.text+0x425): undefined reference to `cv::startWindowThread()'
+listener.cpp:(.text+0x677): undefined reference to `cv::destroyWindow(cv::String const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/lara/catkin_ws/devel/.private/video/lib/video/listener] Error 1
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/talker.dir/src/talker.cpp.o: In function `main':
+talker.cpp:(.text+0x187): undefined reference to `cv::VideoCapture::VideoCapture(int)'
+talker.cpp:(.text+0x1e9): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+talker.cpp:(.text+0x347): undefined reference to `cv::waitKey(int)'
+talker.cpp:(.text+0x3ac): undefined reference to `cv::VideoCapture::~VideoCapture()'
+talker.cpp:(.text+0x58e): undefined reference to `cv::VideoCapture::~VideoCapture()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/lara/catkin_ws/devel/.private/video/lib/video/talker] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

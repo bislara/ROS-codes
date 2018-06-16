@@ -1,0 +1,8 @@
+prefix=/home/lara/catkin_ws/devel/.private/qtb
+
+Name: qtb
+Description: Description of qtb
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lara/catkin_ws/devel/.private/qtb/lib 
+Requires: 

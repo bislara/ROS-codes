@@ -1,0 +1,16 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:40:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport()[m[K’
+         image_transport::ImageTransport it;
+[01;32m[K                                         ^[m[K
+In file included from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:2:0[m[K:
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:54:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(const ros::NodeHandle&)
+   explicit ImageTransport(const ros::NodeHandle& nh);
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:54:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(const image_transport::ImageTransport&)
+ class ImageTransport
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/trackbar.dir/src/trackbar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trackbar.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/lara/catkin_ws/src/test/src/controller.cpp:[m[K In member function ‘[01m[Kvoid controller::callback(const ConstPtr&)[m[K’:
+[01m[K/home/lara/catkin_ws/src/test/src/controller.cpp:19:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub_str[m[K’
+  pub_str.data =no*no;
+[01;32m[K  ^[m[K
+[01m[K/home/lara/catkin_ws/src/test/src/listener.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/lara/catkin_ws/src/test/src/listener.cpp:9:19:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+  std::cout<< msg->.data<<std::endl;
+[01;32m[K                   ^[m[K
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

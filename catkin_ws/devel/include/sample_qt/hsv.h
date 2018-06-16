@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/sample_qt/include/sample_qt/hsv.h

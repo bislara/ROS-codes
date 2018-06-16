@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/execution/stages.py", line 174, in function_proxy
+    return function(logger, event_queue, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/jobs/catkin.py", line 291, in link_devel_products
+    source_hash = md5(open(os.path.realpath(source_file)).read().encode('utf-8')).hexdigest()
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x90 in position 24: ordinal not in range(128)
+
+Stage `symlink` failed with arguments:
+  package: {'buildtool_export_depends': [], 'test_depends': [], 'exec_depends': [<catkin_pkg.package.Dependency object at 0x7fd48e83dec0>, <catkin_pkg.package.Dependency object at 0x7fd48e83df30>, <catkin_pkg.package.Dependency object at 0x7fd48e83dfa0>, <catkin_pkg.package.Dependency object at 0x7fd48e83dbb0>, <catkin_pkg.package.Dependency object at 0x7fd48e83dc90>, <catkin_pkg.package.Dependency object at 0x7fd48e83dd00>], 'build_depends': [<catkin_pkg.package.Dependency object at 0x7fd48e83dd70>, <catkin_pkg.package.Dependency object at 0x7fd48e83dde0>, <catkin_pkg.package.Dependency object at 0x7fd48e83de50>, <catkin_pkg.package.Dependency object at 0x7fd48e83dc20>, <catkin_pkg.package.Dependency object at 0x7fd48e91a210>, <catkin_pkg.package.Dependency object at 0x7fd48e91a280>], 'licenses': ['TODO'], 'group_depends': [], 'doc_depends': [], 'filename': '/home/lara/catkin_ws/src/qt_task/package.xml', 'version': '0.0.0', 'package_format': 2, 'exports': [], 'description': u'The qt_task package', 'build_export_depends': [<catkin_pkg.package.Dependency object at 0x7fd48e91a2f0>, <catkin_pkg.package.Dependency object at 0x7fd48e91a360>, <catkin_pkg.package.Dependency object at 0x7fd48e91a3d0>, <catkin_pkg.package.Dependency object at 0x7fd48e91a440>, <catkin_pkg.package.Dependency object at 0x7fd48e91a050>, <catkin_pkg.package.Dependency object at 0x7fd48e91a0c0>], 'maintainers': [<catkin_pkg.package.Person object at 0x7fd48e855e90>], 'member_of_groups': [], 'authors': [], 'conflicts': [], 'buildtool_depends': [<catkin_pkg.package.Dependency object at 0x7fd48e91a130>], 'version_compatibility': None, 'replaces': [], 'name': 'qt_task', 'urls': []}
+  metadata_path: /home/lara/catkin_ws/.catkin_tools/profiles/default
+  devel_manifest_path: /home/lara/catkin_ws/.catkin_tools/profiles/default/packages/qt_task
+  prebuild: False
+  package_path: qt_task
+  dest_devel_path: /home/lara/catkin_ws/devel
+  source_devel_path: /home/lara/catkin_ws/devel/.private/qt_task

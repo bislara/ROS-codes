@@ -1,0 +1,7 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:[m[K In function ‘[01m[Kvoid imgCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kkernel[m[K’ is not a member of ‘[01m[Kcv[m[K’
+     cv::erode( blur,blur,cv::kernel);
+[01;32m[K                          ^[m[K
+make[2]: *** [CMakeFiles/trackbar.dir/src/trackbar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trackbar.dir/all] Error 2
+make: *** [all] Error 2

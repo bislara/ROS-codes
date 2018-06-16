@@ -1,0 +1,6 @@
+Linked: (/home/lara/catkin_ws/devel/.private/pack1/lib/pkgconfig/pack1.pc, /home/lara/catkin_ws/devel/lib/pkgconfig/pack1.pc)
+Linked: (/home/lara/catkin_ws/devel/.private/pack1/lib/pack1/talker, /home/lara/catkin_ws/devel/lib/pack1/talker)
+Linked: (/home/lara/catkin_ws/devel/.private/pack1/lib/pack1/controller, /home/lara/catkin_ws/devel/lib/pack1/controller)
+Linked: (/home/lara/catkin_ws/devel/.private/pack1/lib/pack1/listener, /home/lara/catkin_ws/devel/lib/pack1/listener)
+Linked: (/home/lara/catkin_ws/devel/.private/pack1/share/pack1/cmake/pack1Config.cmake, /home/lara/catkin_ws/devel/share/pack1/cmake/pack1Config.cmake)
+Linked: (/home/lara/catkin_ws/devel/.private/pack1/share/pack1/cmake/pack1Config-version.cmake, /home/lara/catkin_ws/devel/share/pack1/cmake/pack1Config-version.cmake)

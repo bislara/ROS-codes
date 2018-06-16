@@ -1,0 +1,13 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:6:38:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+ void chatterCallback(const std_msgs::Int32::ConstPtr& msg)
+[01;32m[K                                      ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:6:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void chatterCallback(const std_msgs::Int32::ConstPtr& msg)
+[01;32m[K                                                     ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:6:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:6:55:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void chatterCallback(const std_msgs::Int32::ConstPtr& msg)
+[01;32m[K                                                       ^[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

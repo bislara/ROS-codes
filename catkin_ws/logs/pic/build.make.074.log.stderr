@@ -1,0 +1,5 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:6:36:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Int32MultiArray: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/trackbar.dir/src/trackbar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trackbar.dir/all] Error 2
+make: *** [all] Error 2

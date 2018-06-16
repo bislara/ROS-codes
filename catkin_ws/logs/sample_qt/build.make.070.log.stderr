@@ -1,0 +1,6 @@
+/home/lara/catkin_ws/devel/.private/sample_qt/lib/libappLib.so: undefined reference to `MainWindow::trackbar_value()'
+/home/lara/catkin_ws/devel/.private/sample_qt/lib/libappLib.so: undefined reference to `MainWindow::stop()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/lara/catkin_ws/devel/.private/sample_qt/lib/sample_qt/app] Error 1
+make[1]: *** [CMakeFiles/app.dir/all] Error 2
+make: *** [all] Error 2

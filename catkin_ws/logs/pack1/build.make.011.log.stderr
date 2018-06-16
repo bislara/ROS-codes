@@ -1,0 +1,18 @@
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:7:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+ void chatterCallback(const std_msgs::String::ConstPtr& msg)
+[01;32m[K                                      ^[m[K
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:7:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void chatterCallback(const std_msgs::String::ConstPtr& msg)
+[01;32m[K                                                      ^[m[K
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:7:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:7:56:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void chatterCallback(const std_msgs::String::ConstPtr& msg)
+[01;32m[K                                                        ^[m[K
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:50:54:[m[K [01;31m[Kerror: [m[K‘[01m[KchatterCallback[m[K’ was not declared in this scope
+   ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+[01;32m[K                                                      ^[m[K
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

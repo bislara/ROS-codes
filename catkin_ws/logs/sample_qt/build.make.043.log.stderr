@@ -1,0 +1,93 @@
+In file included from [01m[K/home/lara/catkin_ws/build/sample_qt/include/moc_mainwindow.cxx:9:0[m[K:
+[01m[K/home/lara/catkin_ws/build/sample_qt/include/../../../src/sample_qt/include/mainwindow.h:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+     image_transport::Subscriber sub;
+[01;32m[K     ^[m[K
+[01m[K/home/lara/catkin_ws/build/sample_qt/include/../../../src/sample_qt/include/mainwindow.h:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+     image_transport::ImageTransport it;
+[01;32m[K     ^[m[K
+[01m[K/home/lara/catkin_ws/build/sample_qt/include/../../../src/sample_qt/include/mainwindow.h:36:15:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+     std_msgs::Int32MultiArray hsv;
+[01;32m[K               ^[m[K
+In file included from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1:0[m[K:
+[01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+     image_transport::Subscriber sub;
+[01;32m[K     ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ does not name a type
+     image_transport::ImageTransport it;
+[01;32m[K     ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:36:15:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+     std_msgs::Int32MultiArray hsv;
+[01;32m[K               ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/include/moc_mainwindow.cxx.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::trackbar_value()[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khsv[m[K’ was not declared in this scope
+     hsv.data.push_back(ui->Hmax->value());
+[01;32m[K     ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:8:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KHmax[m[K’
+     hsv.data.push_back(ui->Hmax->value());
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:9:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KHmin[m[K’
+     hsv.data.push_back(ui->Hmin->value());
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:11:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KSmax[m[K’
+     hsv.data.push_back(ui->Smax->value());
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:12:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KSmin[m[K’
+     hsv.data.push_back(ui->Smin->value());
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:15:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KVmax[m[K’
+     hsv.data.push_back(ui->Vmax->value());
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:16:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KVmin[m[K’
+     hsv.data.push_back(ui->Vmin->value());
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(ros::NodeHandle, QWidget*)[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:63:28:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+     pub_hsv = nh.advertise<std_msgs::Int32MultiArray>("HSV",1000);
+[01;32m[K                            ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:63:28:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:63:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise(const char [4], int)[m[K’
+     pub_hsv = nh.advertise<std_msgs::Int32MultiArray>("HSV",1000);
+[01;32m[K                                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:5[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:63:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     pub_hsv = nh.advertise<std_msgs::Int32MultiArray>("HSV",1000);
+[01;32m[K                                                                 ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:5[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher advertise(const std::string& topic, uint32_t queue_size,
+[01;32m[K             ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:63:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     pub_hsv = nh.advertise<std_msgs::Int32MultiArray>("HSV",1000);
+[01;32m[K                                                                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:66:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KHmax[m[K’
+     connect(ui->Hmax,SIGNAL(sliderMoved(int)),this,SLOT(trackbar_value()));
+[01;32m[K                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:67:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KHmin[m[K’
+     connect(ui->Hmin,SIGNAL(sliderMoved(int)),this,SLOT(trackbar_value()));
+[01;32m[K                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:69:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KSmax[m[K’
+     connect(ui->Smax,SIGNAL(sliderMoved(int)),this,SLOT(trackbar_value()));
+[01;32m[K                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KSmin[m[K’
+     connect(ui->Smin,SIGNAL(sliderMoved(int)),this,SLOT(trackbar_value()));
+[01;32m[K                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KVmax[m[K’
+     connect(ui->Vmax,SIGNAL(sliderMoved(int)),this,SLOT(trackbar_value()));
+[01;32m[K                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:73:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindow[m[K’ has no member named ‘[01m[KVmin[m[K’
+     connect(ui->Vmin,SIGNAL(sliderMoved(int)),this,SLOT(trackbar_value()));
+[01;32m[K                 ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

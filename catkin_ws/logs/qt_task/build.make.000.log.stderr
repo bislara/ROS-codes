@@ -1,0 +1,11 @@
+In file included from [01m[K/home/lara/catkin_ws/src/qt_task/src/mainwindow.cpp:1:0[m[K:
+[01m[K/home/lara/catkin_ws/src/qt_task/include/mainwindow.h:14:27:[m[K [01;31m[Kfatal error: [m[Ksample_qt/hsv.h: No such file or directory
+compilation terminated.
+In file included from [01m[K/home/lara/catkin_ws/build/qt_task/include/moc_mainwindow.cxx:9:0[m[K:
+[01m[K/home/lara/catkin_ws/build/qt_task/include/../../../src/qt_task/include/mainwindow.h:14:27:[m[K [01;31m[Kfatal error: [m[Ksample_qt/hsv.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/appLib.dir/include/moc_mainwindow.cxx.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

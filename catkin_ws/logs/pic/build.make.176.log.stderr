@@ -1,0 +1,59 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:[m[K In function ‘[01m[Kvoid imgCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:87:24:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kblur[m[K’ is ambiguous
+     GaussianBlur( mask,blur, cv::Size( 15, 15 ), 0, 0 );
+[01;32m[K                        ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:16:35:[m[K [01;36m[Knote: [m[Kcandidates are: cv::Mat blur
+ Mat img,frame_HSV,frame,mask,img2,blur,element,canny_output;
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp:71:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp:1502:19:[m[K [01;36m[Knote: [m[K                void cv::blur(cv::InputArray, cv::OutputArray, cv::Size, cv::Point, int)
+ CV_EXPORTS_W void blur( InputArray src, OutputArray dst,
+[01;32m[K                   ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:96:12:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kblur[m[K’ is ambiguous
+     erode( blur,blur,element);
+[01;32m[K            ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:16:35:[m[K [01;36m[Knote: [m[Kcandidates are: cv::Mat blur
+ Mat img,frame_HSV,frame,mask,img2,blur,element,canny_output;
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp:71:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp:1502:19:[m[K [01;36m[Knote: [m[K                void cv::blur(cv::InputArray, cv::OutputArray, cv::Size, cv::Point, int)
+ CV_EXPORTS_W void blur( InputArray src, OutputArray dst,
+[01;32m[K                   ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:96:17:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kblur[m[K’ is ambiguous
+     erode( blur,blur,element);
+[01;32m[K                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:16:35:[m[K [01;36m[Knote: [m[Kcandidates are: cv::Mat blur
+ Mat img,frame_HSV,frame,mask,img2,blur,element,canny_output;
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp:71:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp:1502:19:[m[K [01;36m[Knote: [m[K                void cv::blur(cv::InputArray, cv::OutputArray, cv::Size, cv::Point, int)
+ CV_EXPORTS_W void blur( InputArray src, OutputArray dst,
+[01;32m[K                   ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:99:12:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kblur[m[K’ is ambiguous
+     moment(blur,img2);
+[01;32m[K            ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:16:35:[m[K [01;36m[Knote: [m[Kcandidates are: cv::Mat blur
+ Mat img,frame_HSV,frame,mask,img2,blur,element,canny_output;
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp:71:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp:1502:19:[m[K [01;36m[Knote: [m[K                void cv::blur(cv::InputArray, cv::OutputArray, cv::Size, cv::Point, int)
+ CV_EXPORTS_W void blur( InputArray src, OutputArray dst,
+[01;32m[K                   ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:100:19:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kblur[m[K’ is ambiguous
+     imshow("view",blur);
+[01;32m[K                   ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:16:35:[m[K [01;36m[Knote: [m[Kcandidates are: cv::Mat blur
+ Mat img,frame_HSV,frame,mask,img2,blur,element,canny_output;
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp:71:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:4[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp:1502:19:[m[K [01;36m[Knote: [m[K                void cv::blur(cv::InputArray, cv::OutputArray, cv::Size, cv::Point, int)
+ CV_EXPORTS_W void blur( InputArray src, OutputArray dst,
+[01;32m[K                   ^[m[K
+make[2]: *** [CMakeFiles/trackbar.dir/src/trackbar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trackbar.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b7b6f0d31975c61d5511ab32e2a1c00c CMakeFiles/clean_test_results
+ea47e45a3a640c082215d231c2c3424f include/moc_mainwindow.cxx
+d06989818fa9bc164c6e6fbeb31bd0d4 ui_mainwindow.h

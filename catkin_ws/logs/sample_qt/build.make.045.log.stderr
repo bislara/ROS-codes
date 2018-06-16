@@ -1,0 +1,33 @@
+In file included from [01m[K/home/lara/catkin_ws/build/sample_qt/include/moc_mainwindow.cxx:9:0[m[K:
+[01m[K/home/lara/catkin_ws/build/sample_qt/include/../../../src/sample_qt/include/mainwindow.h:35:33:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kimage_transport::Subscriber MainWindow::sub[m[K’
+     image_transport::Subscriber sub;
+[01;32m[K                                 ^[m[K
+[01m[K/home/lara/catkin_ws/build/sample_qt/include/../../../src/sample_qt/include/mainwindow.h:32:21:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kros::Subscriber MainWindow::sub[m[K’
+     ros::Subscriber sub;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1:0[m[K:
+[01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:35:33:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kimage_transport::Subscriber MainWindow::sub[m[K’
+     image_transport::Subscriber sub;
+[01;32m[K                                 ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:32:21:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kros::Subscriber MainWindow::sub[m[K’
+     ros::Subscriber sub;
+[01;32m[K                     ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/include/moc_mainwindow.cxx.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(ros::NodeHandle, QWidget*)[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:51:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport()[m[K’
+     ui(new Ui::MainWindow), nh(_nh)
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:13:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:54:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(const ros::NodeHandle&)
+   explicit ImageTransport(const ros::NodeHandle& nh);
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:54:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(const image_transport::ImageTransport&)
+ class ImageTransport
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

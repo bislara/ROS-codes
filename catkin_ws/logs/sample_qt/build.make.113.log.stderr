@@ -1,0 +1,11 @@
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::push_signal()[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+ advertise();s
+[01;32m[K             ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::trackbar_value()[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khsv[m[K’ was not declared in this scope
+     hsv.data.push_back(ui->Hmax->value());
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

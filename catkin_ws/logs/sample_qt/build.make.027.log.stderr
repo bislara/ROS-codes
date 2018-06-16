@@ -1,0 +1,18 @@
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:4:23:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid MainWindow::stop()[m[K’ member function declared in class ‘[01m[KMainWindow[m[K’
+ void MainWindow::stop()
+[01;32m[K                       ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::sendsignal()[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+     pub.publish(signal);
+[01;32m[K     ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(ros::NodeHandle, QWidget*)[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:44:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ksub[m[K’
+    sub = nh.subscribe("camera/image", 1, &MainWindow::callback, this);
+[01;32m[K    ^[m[K
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:45:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+    pub=nh.advertise<std_msgs::Int32>("control",1000)
+[01;32m[K    ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/lara/catkin_ws/install
+
+Name: pack1
+Description: Description of pack1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lara/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,12 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/lara/catkin_ws/build/qt_task
+-DROS_PACKAGE_NAME="qt_task"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/home/lara/catkin_ws/build/qt_task/include/moc_mainwindow.cxx
+/home/lara/catkin_ws/src/qt_task/include/mainwindow.h

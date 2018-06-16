@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target trackbar[0m
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target talker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/trackbar.dir/src/trackbar.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/lara/catkin_ws/devel/.private/pic/lib/pic/talker[0m
+[ 66%] Built target talker
+[ 83%] [32m[1mLinking CXX executable /home/lara/catkin_ws/devel/.private/pic/lib/pic/listener[0m
+[ 83%] Built target listener
+[100%] [32m[1mLinking CXX executable /home/lara/catkin_ws/devel/.private/pic/lib/pic/trackbar[0m
+[100%] Built target trackbar

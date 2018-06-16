@@ -1,0 +1,43 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:[m[K In function ‘[01m[Kvoid Callback(const ConstPtr&)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:12:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  hup= msg->data->Hmax;
+[01;32m[K                ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:13:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  hlo=msg->data->Hlow;
+[01;32m[K               ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:14:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  sup=msg->data->Smax;
+[01;32m[K               ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:15:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  slo=msg->data->Slow;
+[01;32m[K               ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:16:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  vup=msg->data->Vmax;
+[01;32m[K               ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:17:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  vlo=msg->data->Vmin;
+[01;32m[K               ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:41:53:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kros::Subscriber[m[K’ to non-scalar type ‘[01m[Kimage_transport::Subscriber[m[K’ requested
+         image_transport::Subscriber sub=nh.subscribe("camera/image", 1,imgCallback);
+[01;32m[K                                                     ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:48:52:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope
+             inRange(frame_HSV, Scalar(hlo, slo, vlo), Scalar(hup, sup, vup),frame);
+[01;32m[K                                                    ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:48:52:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core.hpp:58:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui.hpp:46[m[K,
+                 from [01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/highgui/highgui.hpp:48[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:3[m[K:
+[01m[K/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/types.hpp:664:25:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Scalar[m[K’
+ typedef Scalar_<double> Scalar;
+[01;32m[K                         ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:49:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext[m[K’ was not declared in this scope
+             cv::imshow("view",cv_bridge::toCvShare(text,"hsv8")->image);
+[01;32m[K                                                    ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/trackbar.cpp:56:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+         }
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/trackbar.dir/src/trackbar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/trackbar.dir/all] Error 2
+make: *** [all] Error 2

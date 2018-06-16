@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/lara/catkin_ws/src/pic/src/tracker.cpp', needed by 'CMakeFiles/tracker.dir/src/tracker.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/tracker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

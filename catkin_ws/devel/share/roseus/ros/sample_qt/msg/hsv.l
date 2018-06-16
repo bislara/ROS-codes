@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/sample_qt/share/roseus/ros/sample_qt/msg/hsv.l

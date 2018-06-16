@@ -1,0 +1,13 @@
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[KImage_transport[m[K’ has not been declared
+         Image_transport::ImageTransport it(nh);
+[01;32m[K         ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KImage_transport[m[K’ has not been declared
+         Image_transport::Publisher pub = it.advertise("camera/image", 1);
+[01;32m[K         ^[m[K
+[01m[K/home/lara/catkin_ws/src/pic/src/talker.cpp:27:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+           pub.publish(msg);
+[01;32m[K           ^[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

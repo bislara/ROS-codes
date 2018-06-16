@@ -1,0 +1,7 @@
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pack1/src/listener.cpp:11:26:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+    std::cout<< msg->data()<<std::endl;
+[01;32m[K                          ^[m[K
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make: *** [all] Error 2

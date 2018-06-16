@@ -1,0 +1,6 @@
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:42:22:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kint MainWindow::stop()[m[K’ member function declared in class ‘[01m[KMainWindow[m[K’
+ int MainWindow::stop()
+[01;32m[K                      ^[m[K
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

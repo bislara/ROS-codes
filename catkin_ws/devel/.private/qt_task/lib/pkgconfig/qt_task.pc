@@ -1,0 +1,8 @@
+prefix=/home/lara/catkin_ws/devel/.private/qt_task
+
+Name: qt_task
+Description: Description of qt_task
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lara/catkin_ws/devel/.private/qt_task/lib 
+Requires: 

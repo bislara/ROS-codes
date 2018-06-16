@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target talker[0m
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libconsole_bridge.so,opencv_calib3d', needed by '/home/lara/catkin_ws/devel/.private/video/lib/video/listener'.  Stop.
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/listener.dir/all' failed
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libconsole_bridge.so,opencv_calib3d', needed by '/home/lara/catkin_ws/devel/.private/video/lib/video/talker'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+CMakeFiles/Makefile2:904: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/lara/catkin_ws/src/pack1/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lara/catkin_ws/src/pack1/src/controller.cpp:61:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Subscriber sub[m[K’
+   ros::Subscriber sub = n.subscribe("chatter2",1000,chatterCallback1);
+[01;32m[K                   ^[m[K
+[01m[K/home/lara/catkin_ws/src/pack1/src/controller.cpp:60:19:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Subscriber sub[m[K’ previously declared here
+   ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+[01;32m[K                   ^[m[K
+make[2]: *** [CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

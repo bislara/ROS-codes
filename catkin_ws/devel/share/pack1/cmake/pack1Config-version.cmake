@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/pack1/share/pack1/cmake/pack1Config-version.cmake

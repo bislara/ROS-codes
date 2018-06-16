@@ -1,0 +1,27 @@
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:[m[K In constructor ‘[01m[KMainWindow::MainWindow(ros::NodeHandle, QWidget*)[m[K’:
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:51:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::ImageTransport()[m[K’
+     ui(new Ui::MainWindow), nh(_nh)
+[01;32m[K                                   ^[m[K
+In file included from [01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:13:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:54:12:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(const ros::NodeHandle&)
+   explicit ImageTransport(const ros::NodeHandle& nh);
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:54:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::ImageTransport::ImageTransport(const image_transport::ImageTransport&)
+ class ImageTransport
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:56:8:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kimage_transport::Subscriber[m[K’ and ‘[01m[Kros::Subscriber[m[K’)
+    sub = nh.subscribe("camera/image", 1, &MainWindow::callback, this);
+[01;32m[K        ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/image_transport/image_transport.h:39:0[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/include/mainwindow.h:13[m[K,
+                 from [01m[K/home/lara/catkin_ws/src/sample_qt/src/mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/image_transport/subscriber.h:61:7:[m[K [01;36m[Knote: [m[Kcandidate: image_transport::Subscriber& image_transport::Subscriber::operator=(const image_transport::Subscriber&)
+ class Subscriber
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/image_transport/subscriber.h:61:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kros::Subscriber[m[K’ to ‘[01m[Kconst image_transport::Subscriber&[m[K’
+make[2]: *** [CMakeFiles/appLib.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/appLib.dir/all] Error 2
+make: *** [all] Error 2

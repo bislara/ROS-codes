@@ -1,0 +1,1 @@
+/home/lara/catkin_ws/devel/.private/sample_qt/lib/python2.7/dist-packages/sample_qt/msg/_hsv.py
